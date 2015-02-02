@@ -1,4 +1,4 @@
-package br.com.orangescript.antenna.news.beans;
+package br.com.orangescript.antenna.news.core;
 
 public enum Source {
 
