@@ -54,7 +54,7 @@ public class PublisherService implements Publisher {
 
             return NewsBuilder.build(rssChannel);
 
-        } catch (IOException | SAXException e) {
+        } catch (Exception e) {
             LOGGER.error(e.getLocalizedMessage(), e);
         }
 
